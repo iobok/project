@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin:0%
+}
+.table_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(181, 229, 229);
+    padding: 20px;
+
+}
+.table_header input{
+    padding: 8px 15px;
+    border: 1px;
+    outline: none;
+    border-radius: 6px;
+    width: 20px;
+} 
+.button{
+    background-color: aquamarine;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    color: rgb(16, 23, 29);
+    cursor: pointer;
+}
+table{
+    width: 100%;
+    table-layout:fixed;
+}
+thead, th{
+    background-color: rgb(196, 241, 226);
+    top: 0;
+    position: sticky;
+    font-size: medium;
+}
+tbody, td{
+    border-bottom: 1px skyblue;
+    text-align: center;
+    padding: 8px 20px;
+    background-color: rgb(185, 185, 235);
+}
+.edit{
+    background-color: rgb(129, 224, 224);
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+.delete{
+    background-color: rgb(21, 249, 249);
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
